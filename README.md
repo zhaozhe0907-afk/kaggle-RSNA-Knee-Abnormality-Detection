@@ -128,4 +128,3 @@ pytest
 ## 下一阶段
 
 阶段 1 只读取 CSV，完成病例、标签、序列属性、缺失机制和报告分布分析；在 CSV 结论完成前不下载全部 DICOM。
->>>>>>> 3ef8dfb (Complete stage 0 project setup)

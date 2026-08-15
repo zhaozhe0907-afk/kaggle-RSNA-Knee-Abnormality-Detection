@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local secrets
+.venv/
+.env
+.env.*
+!.env.example
+
+# Jupyter / editors / macOS
+.ipynb_checkpoints/
+.DS_Store
+.~*.docx
+
+# Data, model weights, and generated outputs
+/data/
+*.dcm
+*.pt
+*.pth
+*.ckpt
+outputs/*
+!outputs/.gitkeep
+
+# Kaggle credentials must never be committed
+kaggle.json
+.kaggle/

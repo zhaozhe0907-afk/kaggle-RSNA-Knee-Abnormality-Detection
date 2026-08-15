@@ -1,0 +1,18 @@
+# Core numerical and EDA stack
+numpy>=1.26,<3
+pandas>=2.2,<4
+polars>=1.0,<2
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+scikit-learn>=1.5,<2
+iterative-stratification>=0.1.9,<1
+
+# Deep learning baseline
+torch>=2.4,<3
+torchvision>=0.19,<1
+
+# Configuration, notebooks, and tests
+PyYAML>=6,<7
+jupyterlab>=4,<5
+ipykernel>=6,<8
+pytest>=8,<10

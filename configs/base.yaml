@@ -1,0 +1,16 @@
+project:
+  name: rsna-knee-abnormality-detection
+  seed: 2026
+
+paths:
+  data_dir: data
+  output_dir: outputs
+
+validation:
+  group_column: StudyInstanceUID
+  n_splits: 5
+
+runtime:
+  device: auto
+  num_workers: 0
+  deterministic: true

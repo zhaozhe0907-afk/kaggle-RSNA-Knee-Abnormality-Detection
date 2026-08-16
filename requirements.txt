@@ -6,6 +6,7 @@ matplotlib>=3.8,<4
 seaborn>=0.13,<1
 scikit-learn>=1.5,<2
 iterative-stratification>=0.1.9,<1
+langdetect==1.0.9
 
 # Deep learning baseline
 torch>=2.4,<3
